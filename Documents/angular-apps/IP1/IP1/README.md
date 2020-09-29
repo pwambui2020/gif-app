@@ -4,7 +4,7 @@
 This wonderful application enables users to add  and delete quotes, like and dislike quotes and add the dates they were published.You are also able to see what was already there.
 
 ## Screenshot
-
+![quotescreenshot](https://user-images.githubusercontent.com/69419673/94559756-5cb3ac80-026a-11eb-8e8a-65a803e185e0.png)
 
 ## Development server
 
