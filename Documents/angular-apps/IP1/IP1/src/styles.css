@@ -8,7 +8,8 @@ body{
 }
 h1, h3{
     text-align: center;
-    color: #7ef9ff;
+    color: #a04e76;
     opacity: 5;
     font-weight: bolder;
+    background-color: white;
 }
