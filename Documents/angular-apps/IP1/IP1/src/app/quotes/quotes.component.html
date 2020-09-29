@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-4 p-4">
+        <app-quote-form (emitQuote)="addQuote($event)"></app-quote-form>
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-6" *ngFor="let quote of quotes; let i=index">
+                <div class="card mt-3" style="width: 25rem;">
+                    <div class="card-body">
+
+                        <app-quote-details [quote]="quote"></app-quote-details>
+                        <div class="row">
+                            <div class="col-4"> <a (click)="upvote(i)"><i class="fas fa-thumbs-up"></i></a></div>
+                            <div class="col-4"> <a (click)="downvote(i)"><i class="fas fa-thumbs-down"></i></a></div>
+                            <div class="col-4"> <a (click)="delQuote(i)"><i class="fas fa-trash-alt"></i></a></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
