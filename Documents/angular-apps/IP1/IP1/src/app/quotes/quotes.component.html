@@ -7,7 +7,9 @@
             <div class="col-md-6" *ngFor="let quote of quotes; let i=index">
                 <div class="card mt-3" style="width: 25rem;">
                     <div class="card-body">
-
+                        <p appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">
+                            Quote highly Upvoted
+                          </p>
                         <app-quote-details [quote]="quote"></app-quote-details>
                         <div class="row">
                             <div class="col-4"> <a (click)="upvote(i)"><i class="fas fa-thumbs-up"></i></a></div>
