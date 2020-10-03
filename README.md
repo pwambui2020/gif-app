@@ -12,10 +12,10 @@ This wonderful application enables users to add and delete quotes, like and disl
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 # Setup/Installation requirements
-This project was generated with Angular CLI version 10.1.1. Clone or download and unzip the repository from github, https://github.com/pwambui2020/Quotes-app.git
+This project was generated with Angular CLI version 10.1.1. Clone or download and unzip the repository from github, https://github.com/pwambui2020/gif-app.git
 
 # Code scaffolding
-Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|interface|module.
 
 # Build
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
