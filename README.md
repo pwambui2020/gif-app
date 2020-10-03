@@ -1,27 +1,38 @@
-# Russian
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+# Title
+THE GIPHY - APP
 
-## Development server
+# Created by
+PAULYNE WAMBUI
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Description
+This wonderful application enables users to add and delete quotes, like and dislike quotes and add the dates they were published.You are also able to see what was already there.
 
-## Code scaffolding
+# Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Setup/Installation requirements
+This project was generated with Angular CLI version 10.1.1. Clone or download and unzip the repository from github, https://github.com/pwambui2020/Quotes-app.git
 
-## Build
+# Code scaffolding
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Build
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
-## Running unit tests
-
+# Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# Behaviour Driven Development(BDD)
+The user is able to click and add to the name, author , quote and date. User is able to publish a new quote, add an upvote or downvote and even delete the quote.
 
-## Further help
+# Technologies Used
+Angular CLI
+bootstrap
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Known Bugs
+There are no known bugs currently. The page works as expected.
+
+# License
+This project is licensed under the MIT Open Source license Copyright (c) 2020. Paulyne Wambui
